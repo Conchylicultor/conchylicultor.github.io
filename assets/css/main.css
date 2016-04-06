@@ -2010,6 +2010,12 @@
 			text-align: center;
 		}
 
+                /* CODE MODIFIED HERE: Keep cst aspect ratio */
+		.work-item img {
+                        width:370px;
+                        height:217px;
+		}
+
 			.image.thumb:after {
 				-moz-transition: opacity 0.2s ease-in-out;
 				-webkit-transition: opacity 0.2s ease-in-out;
